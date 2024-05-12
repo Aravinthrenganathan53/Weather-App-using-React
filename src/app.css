@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+#heading{
+  font-size:60px;
+  font-weight:900;
+  color:rgb(250, 14, 14);
+  text-align: center;
+  
+}
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(bg3.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+}
+.box{
+  width:470px;
+  background-color: rgb(207, 214, 189);
+  border:2px solid rgb(230, 214, 214);
+  position:relative;
+  top:40px;
+  padding:13px;
+  border: 1p solid gray;
+  box-shadow: 1px 3px 10px black;
+  border-radius: 15px;
+  background-blend-mode: l;
+ 
+
+}
+.inputbox{
+  width:100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding:8px;
+  margin-top: 5px;
+  border-color: blueviolet;
+}
+.input{
+ width:90%;
+  padding:10px;
+  border-radius: 10px;
+  border:none;
+  outline:none;
+  font-size: 20px;
+}
+
+#search{
+  width:20px;
+  height:20px;
+  position: relative;
+  top:4px;
+  cursor: pointer;
+}
+#img{
+  width:150px;
+  height:200px;
+  position: relative;
+  left:145px;
+  top:16px;
+}
+#temp{
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 600;
+}
+#location{
+  text-align: center;
+  margin-top: 10px;
+  color:rgb(50, 136, 10);
+}
+#country{
+  text-align: center;
+  margin-top: 10px;
+  color:rgb(219, 109, 46);
+  font-size: 30px;
+}
+#lat-long{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    font-size:25px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+#p-lat{
+  text-align: center;
+}
+#p-long{
+  text-align: center;
+}
+#Humidity{
+  width:50px;
+  height:50px;
+}
+#windspeedimg{
+  width:50px;
+  height:50px;
+  margin-left: 20px;
+}
+#Hum-Wind{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  
+}
+#footer{
+  margin-top: 30px;
+  text-align: center;
+  color:rgb(218, 96, 15);
+  font-weight:600;
+  font-size: 20px;
+}
+#Humidity{
+  position: relative;
+  left:15px;
+}
+#humidity>p{
+    margin-top: 10px;
+    margin-left:2px;
+    font-size: large;
+    font-weight: 600;
+}
+#windspeed>p{
+  margin-top: 10px;
+  margin-right:2px;
+  font-size: large;
+  font-weight: 600;
+}
+#city{
+  text-align: center;
+  margin-top: 40px;
+}
